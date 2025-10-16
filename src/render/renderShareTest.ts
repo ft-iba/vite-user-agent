@@ -22,7 +22,7 @@ export function renderShareTest(container: HTMLElement) {
         const canShare =
           'canShare' in navigator ? (navigator as Navigator).canShare(data) : false;
 
-        resultArea.textContent = `canShare: ${canShare}\n\nデータ:\n${JSON.stringify(
+        resultArea.textContent = `canShare: ${canShare}\n\n${JSON.stringify(
           data,
           null,
           2
