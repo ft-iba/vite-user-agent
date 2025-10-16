@@ -1,4 +1,5 @@
 .app {
+  background-color: var(--theme-color-base);
   padding: 40px 20px;
 }
 
@@ -16,7 +17,7 @@ pre {
   background: var(--theme-color-black);
   border-radius: 6px;
   color: #fff;
-  font-size: 11px;
+  font-size: 10px;
   display: flex;
   margin-top: 5px;
   overflow-x: auto;
@@ -31,4 +32,47 @@ p {
   margin-top: 6px;
   font-size: 12px;
   padding-left: 5px;
+}
+
+.info__list {
+  margin-bottom: 20px;
+}
+
+.info__item {
+  border-bottom: 1px #d0d0d0 solid;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 11px;
+  padding: 8px 0;
+}
+
+.info__itemTitle {
+  font-weight: 600;
+  flex-shrink: 0;
+  padding-left: 5px;
+}
+
+.info__itemDetail {
+  padding-right: 5px;
+  text-align: right;
+}
+
+.share__action {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+  padding-bottom: 5px;
+}
+
+.share__actionButton {
+  background-color: var(--theme-color-white);
+  border: 1px solid var(--theme-color-divide);
+  border-radius: 4px;
+  color: inherit;
+  display: flex;
+  font-size: 10px;
+  letter-spacing: -0.01rem;
+  margin: 0;
+  padding: 0.5rem 0.7rem;
 }
